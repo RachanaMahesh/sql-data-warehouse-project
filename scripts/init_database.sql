@@ -8,9 +8,7 @@ Script Purpose:
     within the database: 'bronze', 'silver', and 'gold'.
 	
 WARNING:
-    Running this script will drop the entire 'DataWarehouse' database if it exists. 
-    All data in the database will be permanently deleted. Proceed with caution 
-    and ensure you have proper backups before running this script.
+    If you want to drop the entire 'DataWarehouse' database then ensureto switch to another database.
 */
 -- Drop and recreate the 'DataWarehouse' database
 -- DROP DATABASE IF EXISTS "DataWarehouse";
